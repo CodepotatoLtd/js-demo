@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Demo</title>
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/slippry.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+</head>
+<body>
+
+<a href="/index.html">Vanilla Example</a>
+<a href="/jquery.html">jQuery Example</a>
+
+<h1 id="title">Title here</h1>
+
+<h2><a class="expand" data-target="well" href="#">Car information</a></h2>
+
+<div id="well" class="well">
+    This is some info
+</div>
+
+<h2><a class="expand" data-target="well2" href="#">Car information 2</a></h2>
+
+<div id="well2" class="well">
+    This is some info for number 2!
+</div>
+
+<button id="openToast">Hey there!</button>
+
+<ul id="slippry-demo">
+    <li>
+        <a href="#slide1"><img src="https://img.pizza/1200/500" alt="Welcome to Slippry!"></a>
+    </li>
+    <li>
+        <a href="#slide2"><img src="https://img.pizza/1201/500"  alt="This is an awesome jQuery slider plugin."></a>
+    </li>
+    <li>
+        <a href="#slide3"><img src="https://img.pizza/1202/500" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+    </li>
+</ul>
+
+
+
+<script src="dist/slippry.min.js"></script>
+<script src="dist/jquery.js"></script>
+</body>
+</html>
